@@ -109,11 +109,12 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-moz-transition: 
+		color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #3fb1a3;
+		color:#3fb1a3 ;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -2285,13 +2286,13 @@ input, select, textarea {
 	}
 
 	#header {
-		background: rgba(0, 0, 0, 0.2);
+		background: white;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
-		padding: 2em 1.5em;
+		padding: .75em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -3327,3 +3328,7 @@ input, select, textarea {
 			}
 
 	}
+
+.fauxflixpic {
+	width: 15rem;
+}
