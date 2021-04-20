@@ -17,7 +17,7 @@
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html"><img src="./favicon-32x32.png" alt="logo"></a></h1>
+					<h1 id="logo"><a href="#page-wrapper"><img src="./better_initials.png" alt="logo" id="initialsLogo"></a></h1>
 					<nav id="nav">
 						<ul>
 							<li class="submenuregular">
@@ -206,7 +206,7 @@
 										<header>
 											<h3><b>Pomegranate</b></h3>
 										</header>
-										<p>An app to finds recipes on the web based on leftover ingredients in your kitchen. Reduce food waste and have fun! Uses MongoDB Node Express React.</p>
+										<p>An app to finds recipes on the web based on leftover ingredients in your kitchen. Reduce food waste and try something new! Uses MongoDB Node Express React.</p>
 									</section>
 						
 								</div>
@@ -245,13 +245,13 @@
 				
 						<!-- Content -->
 						<div class="content">
-							<form>
+							<form action="https://formspree.io/f/xgervnrd" method="POST">
 								<div class="row gtr-50">
 									<div class="col-6 col-12-mobile">
-										<input type="text" name="name" placeholder="Name" />
+										<input type="text" name="name" placeholder="Name" id="full-name" required=""/>
 									</div>
 									<div class="col-6 col-12-mobile">
-										<input type="text" name="email" placeholder="Email" />
+										<input type="email" name="_replyto" placeholder="Email" />
 									</div>
 									<div class="col-12">
 										<input type="text" name="subject" placeholder="Subject" />
@@ -261,7 +261,7 @@
 									</div>
 									<div class="col-12">
 										<ul class="buttons">
-											<li><input type="submit" class="special" value="Send Message" /></li>
+											<li><input type="submit" class="special" value="Submit" /></li>
 										</ul>
 									</div>
 								</div>

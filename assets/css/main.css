@@ -3358,3 +3358,7 @@ input, select, textarea {
 #aboutMeBio {
 	text-align: center;
 }
+
+#initialsLogo {
+	width: 32px;
+}
