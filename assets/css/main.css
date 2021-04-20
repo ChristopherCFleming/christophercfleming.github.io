@@ -114,7 +114,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color:#3fb1a3 ;
+		color:#657da1 ;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -2220,7 +2220,7 @@ input, select, textarea {
 			.wrapper.style2 .button.primary {
 				background: #fff;
 				border-color: #fff;
-				color: #83d3c9 !important;
+				color: #14e6cd !important;
 			}
 
 				.wrapper.style2 input[type="button"].primary:hover,
@@ -3329,9 +3329,6 @@ input, select, textarea {
 
 	}
 
-.fauxflixpic {
-	width: 15rem;
-}
 
 .skillIcon {
 	width: 7rem;
@@ -3345,8 +3342,20 @@ input, select, textarea {
 
 .name {
 	padding-bottom: 8px;
+	color: rgb(90, 87, 87);
 }
 
 .footerIcons {
-	margin-left: 40%
+	/* margin-left: 40%; */
+	text-align: center;
+}
+
+.aboutMe {
+	display: block;
+	margin-top: 10%;
+	color: black;
+}
+
+#aboutMeBio {
+	text-align: center;
 }
