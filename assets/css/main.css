@@ -2153,8 +2153,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #70aecd;
+			border-color: #70aecd;
 			color: #fff !important;
 		}
 
@@ -2197,7 +2197,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #70aecd;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -3341,4 +3341,12 @@ input, select, textarea {
 	font-size: 3rem;
 	padding: 0;
 	margin: 0;
+}
+
+.name {
+	padding-bottom: 8px;
+}
+
+.footerIcons {
+	margin-left: 40%
 }
