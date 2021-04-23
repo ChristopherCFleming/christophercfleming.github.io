@@ -3362,3 +3362,12 @@ input, select, textarea {
 #initialsLogo {
 	height: 40px;
 }
+
+.resumeContainer {
+	content: center;
+	width: 100%;
+}
+
+.resumeButton:hover {
+	background:rgba(0, 0, 0, 0.075);
+}
